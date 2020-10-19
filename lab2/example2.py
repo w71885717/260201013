@@ -1,0 +1,5 @@
+x=int(input("X:"))
+y=int(input("Y:"))
+z=float(input("z:"))
+ans= (((2*x+y)**2)*(z)**(1/2))/(y**(1/2)+z**(1/2))
+print(ans)
