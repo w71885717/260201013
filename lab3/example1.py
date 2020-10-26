@@ -1,3 +1,4 @@
 num=float(input("write a num:"))
-num=int(num)
-print(num)
+if num>int(num):
+  num=num+1
+print(int(num))
