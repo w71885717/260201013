@@ -13,12 +13,10 @@ for i in books:
     else:
       second.append(k)
     first.append(k)
-  x=len(first)
-  y=len(second)
+  first1.append(len(first))
+  second1.append(len(second))
   first.clear()
   second.clear()
-  first1.append(x)
-  second1.append(y)
 
 
 for i in range(len(books)):
