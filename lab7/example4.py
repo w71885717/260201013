@@ -9,5 +9,3 @@ for i in range(5):
 for i in range(len(sallaries)):
   employees[names[i]]=sallaries[i]
 print(employees)
-
-
