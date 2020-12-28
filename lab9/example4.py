@@ -9,4 +9,4 @@ def timer(t):
     print("Waits for", t, "seconds")
     time.sleep(1)
     return timer(t-1)
-print(timer(5))
+timer(5)
